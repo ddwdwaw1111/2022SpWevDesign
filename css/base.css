@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Patrick+Hand&display=swap');
+body {
+    font-family: 'Patrick Hand', cursive;
+    color: #114b5F;
+    background-color: #EBEBE3;
+}
+
+footer {
+    background-color: #5A83AF;
+    color: #EBEBE3;
+}
+
+a {
+    color: #EBEBE3;
+}
+
+.socialMedia a {
+    color: #FCB8BE;
+}
+
+p {
+    font-family: 'Concert One', cursive;
+    color: #456990;
+}
+
+li {
+    list-style: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: #EBEBE3;
+}
+
+.button {
+    border: 2px #114b5F solid;
+    padding: 5px 10px;
+    background-color: white;
+    color: #114b5F;
+}
+
+.button:hover {
+    box-shadow: 3px 3px 5px #114b5F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-color {
+    background-color: #5A83AF !important;
+}
+
+.light-pink-color {
+    color: #FCB8BE !important;
+    font-weight: bold;
+}
+
+.description img {
+    width: 350px;
+    height: 260px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
