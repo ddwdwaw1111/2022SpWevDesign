@@ -90,3 +90,8 @@ li a:hover {
     border-radius: 5px;
     border: #456990 1px solid;
 }
+
+.whatIdid p
+{
+    height: 96px !important;
+}
