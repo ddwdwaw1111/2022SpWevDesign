@@ -16,29 +16,32 @@
 </head>
 
 <body>
-    <header class=" mb-4">
+    <!-- Navbar -->
+    <header class="mb-4">
         <nav class="navbar navbar-expand-lg bg-light header-color">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="../logo/ZIHAO.png" alt="Company Logo" width="64" height="64"> ZIHAO WANG</a>
+            <a class="navbar-brand logo" href="#"><img src="../logo/ZIHAO.png" alt="Company Logo" width="64" height="64"> ZIHAO WANG</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav  ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ThingsILike.html">Things I like</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./Gallery.html">Gallery</a>
+                    </li>
 
-                <div class="d-flex ">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./Home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="./ThingsILike.html">Things I like</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="./Gallery.html">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link light-pink-color" aria-current="page" href="./Contact.html">Contect Me</a>
-                        </li>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link " href="./Projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link light-pink-color " aria-current="page" href="./Contact.html">Contect Me</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -66,13 +69,16 @@
 
             <h2 class="font-weight-bold">Address</h2>
             <div class="row mb-5">
-                <div class="col-6">
-                    <h4>See On Map</h4>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.1431375995744!2d-74.08735954885644!3d41.73900537913159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd227ac44b77b5%3A0xdd44509810bdda63!2sState%20University%20of%20New%20York%20at%20New%20Paltz!5e0!3m2!1sen!2sus!4v1648588728988!5m2!1sen!2sus"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-12 col-md-6 mb-5">
+                    <h4 class="mb-4"> See On Map</h4>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.1431375995744!2d-74.08735954885644!3d41.73900537913159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd227ac44b77b5%3A0xdd44509810bdda63!2sState%20University%20of%20New%20York%20at%20New%20Paltz!5e0!3m2!1sen!2sus!4v1648588728988!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="embed-responsive-item"></iframe>
+                    </div>
+
                 </div>
-                <div class="col-6">
-                    <h4 class="mb-5">Copy it</h4>
+                <div class="col-12 col-md-6">
+                    <h4 class="mb-4">Copy it</h4>
                     <h3>12345 Main St.</h3>
                     <h3>Middletown</h3>
                     <h3>NY</h3>
@@ -87,31 +93,33 @@
     <footer>
         <div class="container pb-5 pt-5 ">
 
-            <div class="row mb-5 ">
-                <div class="col-6 text-start ">
+            <div class="row mb-5">
+                <div class="col-sm-6 col-12 text-center suggestion">
                     <div class="mb-4 "><img class="mr-3 " src="../logo/ZIHAO.png " alt="company logo " width="64 " height="64 "> ZIHAO'S BLOG</div>
+                    <a class="button" href="./Contact.html" role="button ">Suggestions about my works</a>
+                </div>
 
-                    <a class="button " href="# " role="button ">Suggestions about my works</a>
+                <div class="col-sm-3 col-6 border-left text-center">
+                    <ul class="social-list">
+                        <li class="">
+                            <a class="" href="./Home.html">Home</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="./ThingsILike.html">Things I like</a>
+                        </li>
+                        <li class="">
+                            <a class=" " href="./Gallery.html">Gallery</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="./Projects.html">Projects</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="./Contact.html">Contect Me</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-3 border-left ">
-                    <li class=" ">
-                        <a class=" " href="./Home.html ">Home</a>
-                    </li>
-                    <li class=" ">
-                        <a class=" " href="./ThingsILike.html ">Things I like</a>
-                    </li>
-                    <li class=" ">
-                        <a class=" " href="./Gallery.html ">Gallery</a>
-                    </li>
-                    <li class=" ">
-                        <a class=" " href="./Projects.html ">Experience</a>
-                    </li>
-                    <li class=" ">
-                        <a class=" " href="./Contact.html ">Contect Me</a>
-                    </li>
-                </div>
-                <div class="col-3 border-left ">
-                    <ul>
+                <div class="col-sm-3 col-6 border-left text-center">
+                    <ul class="social-list">
                         <li><a href="https://www.facebook.com/ " target=" "><i class="fa fa-facebook-square icon " aria-hidden="true "></i> Facebook</a></li>
                         <li><a href="https://www.instagram.com/ " target=" "><i class="fa fa-instagram icon " aria-hidden="true "></i> Instagram</a></li>
                         <li><a href="https://www.linkdin.com/ " target=" "><i class="fa fa-linkedin-square icon " aria-hidden="true "></i> Linkdin</a></li>
@@ -119,7 +127,7 @@
                 </div>
             </div>
             <div class="row ">
-                <div class="col-2 offset-10 ">
+                <div class="col-md-1 offset-md-11 col-12 text-center">
                     <p>Created by Zihao</p>
                 </div>
             </div>

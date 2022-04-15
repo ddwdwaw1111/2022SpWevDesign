@@ -45,8 +45,7 @@ li a:hover {
 }
 
 .description img {
-    width: 350px;
-    height: 260px;
+    width: 100%;
 }
 
 .button {
@@ -91,7 +90,66 @@ li a:hover {
     border: #456990 1px solid;
 }
 
-.whatIdid p
-{
+.whatIdid p {
     height: 96px !important;
 }
+
+.social-list {
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.project-img {
+    height: 100% !important;
+}
+
+.projects p {
+    margin-bottom: 5px;
+}
+
+
+/* Responsive style */
+
+@media only screen and (max-width: 600px) {
+    .suggestion {
+        margin-bottom: 20px;
+    }
+    p {
+        overflow-y: hidden;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .suggestion {
+        margin-bottom: 20px;
+    }
+    p {
+        overflow-y: hidden;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    p {
+        overflow-y: hidden;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
